@@ -31,7 +31,7 @@ module load cudnn/cuda-10.0/7.5.0
 conda activate py36
 ```
 
-### Ensure a GPU node is requested by adding this directive
+### Ensure a GPU node is requested by adding this directive to SLURM scripts
 ```
 #SBATCH --gres=gpu:1
 ```
